@@ -10,5 +10,4 @@ module.exports = function(app){
 
 	app.route('/index')
 		.get(Index.Index)
-		.post(Parser.UploadFile)
 }
