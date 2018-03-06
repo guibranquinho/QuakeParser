@@ -1,4 +1,5 @@
   ##Parser que trata o arquivo games.log do Quake III Arena e gera um arquivo .json;
+ 
   ##Após gerar o arquivo Json, é executado uma api que gera relatórios.
 
 
