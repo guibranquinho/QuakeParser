@@ -10,4 +10,8 @@ module.exports = function(app){
 
 	app.route('/index')
 		.get(Index.Index)
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> eaaa7904fa4a88456bde17481b4c2cec9922662b
