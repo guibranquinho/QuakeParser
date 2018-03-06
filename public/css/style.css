@@ -1,0 +1,64 @@
+body{
+	background-color: black;
+}
+
+.welcome{
+	background-image: url('/images/backQ3.jpg');
+	background-repeat: no-repeat;
+	background-size: 900px;
+    background-position: top; 
+	text-align: center;
+	margin: auto;
+	padding-top: 450px;
+	width: 900px;
+	height: 100px;
+}
+
+@font-face{
+	font-family: 'DpQuake';
+	src:url('fonts/DpQuake.ttf');
+}
+
+.quakeFont{
+	font-family: 'DpQuake';
+	color:#C6D6D6;
+	font-size: 150%;
+	font-style: italic;
+	text-shadow: 1px 1px 1px #DCDCDC;
+}
+
+.text{
+	color:#C6D6D6;
+	font-size: 150%;
+	font-family: 'DpQuake';
+}
+
+.api{
+	background-image: url('/images/backQ3.jpg');
+	background-repeat: no-repeat;
+	background-size:300px;
+	width: 100%;
+	min-height: 400px;
+}
+
+.relatorio{
+	color:white;
+	min-height: 400px;
+	border-collapse: collapse;
+	margin-top:50px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tableBorder{
+	padding:5px;
+	border: 1px solid #ddd;
+	border-collapse:collapse
+}
+
+.inputPlayer{
+	width: 26%;
+	border-radius: 10px;
+	font-family: 'DpQuake';
+	font-size: 150%;
+}

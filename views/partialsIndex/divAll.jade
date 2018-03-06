@@ -1,0 +1,29 @@
+div(id='divAll' ng-app="myApp" ng-controller='myCtrl' style='display:none')
+	//tabela que gera relatorio
+	table(width='100%' class='relatorio' id='tabRelatorio') 
+		-var i = 1
+		tr(class='relatorio')
+			td(colspan='2')
+
+		//ngrepeat que vem do angularJS(/scripts/jsonfile) o arquivo Json;
+		//para cada "game" no json, cria-se uma linha que informa o numero do jogo, total kills, e os jogadores e pontos;
+		tr(ng-repeat='x in json' style='text-align:center' class='relatorio' id='trRelatorio' )
+			td(width='50%' )
+				a(style='font-size:120%;font-family:"DpQuake"' ) GAME: 
+				a(style='font-size:120%') {{$index+1}}
+				br
+				br
+				a(style='font-family:"DpQuake"') TOTAL KILLS: 
+				a {{x.total_kills}}
+
+			td(width='50%')
+				table(class='tableBorder' style='margin:20px' id='Players{{$index+1}}')
+					tr(class='tableBorder')
+						th(class='tableBorder' style='font-family:"DpQuake"') PAYERS
+						th(class='tableBorder' style='font-family:"DpQuake"') KILLS
+					tr(class='tableBorder' ng-repeat='z in x.kills'  style='text-align:center')
+						td(class='tableBorder') {{x.players[$index]}}
+						td(class='tableBorder') {{z}}
+			td
+				
+

@@ -1,0 +1,53 @@
+.BtnStart{
+	margin:auto;
+	padding-top: 15px;
+	margin-top: 50px;
+	text-align: center;
+	border-style: groove;
+	border-radius: 10px;
+	border-color: grey;
+	height: 30px;
+	width: 350px;
+	background-color:#78201A;
+}
+.BtnStart:hover{
+	cursor:pointer;
+	font-size: 105%;
+	margin:auto;
+	padding-top: 15px;
+	text-align: center;
+	border-style: groove;
+	margin-top: 50px;
+	border-color: #C6D6D6;
+	height: 30px;
+	width: 350px;
+}
+
+.ReportOption{
+	text-decoration: none;
+	padding: 8px;
+	font-size: 80%;
+	text-align: center;
+	border-style: groove;
+	border-radius: 10px;
+	border-color: grey;
+	background-color:#78201A;
+	margin-left: 20px;
+	color:#C6D6D6;
+	font-family: 'DpQuake';
+}
+
+.ReportOption:hover{
+	text-decoration: none;
+	cursor:pointer;
+	padding: 8px;
+	font-size: 80%;
+	text-align: center;
+	border-style: groove;
+	border-radius: 10px;
+	border-color: #C6D6D6;
+	background-color:#78201A;
+	margin-left: 20px;
+	color:#C6D6D6;
+	font-family: 'DpQuake';
+}

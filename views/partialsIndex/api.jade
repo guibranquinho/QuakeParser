@@ -1,0 +1,18 @@
+div(class='api' id='api' style='display:none')
+	table(width='100%')
+		tr
+			td(width='20%')
+				p(class='quakeFont' style='font-size:80%;margin-left:120px;padding-top:150px;color:grey') PARSER
+			td(width='80%')
+				//inclui botões api
+				include btns
+
+				//inclui menu de relatorio por player
+				include customizeOptions
+
+				//inclui div restart
+				include restart
+		tr
+			td(colspan='2' style='padding-top:50px' )
+				//inclui div que gera relatório
+				include divAll

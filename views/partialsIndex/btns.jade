@@ -1,0 +1,18 @@
+div(id='Btn')
+	p(class='quakeFont' style='font-size:200%;text-align:center') REPORTS QUAKE III - ARENA
+	p(class='text' style='font-size:100%;text-align:center') PLEASE, SELECT A REPORT OPTION:
+
+	//Somente ativa a divAll, que já tem o relatorio gerado
+	a(class="ReportOption" onclick='activeDiv("divAll"),activeDiv("print")' style='margin-left:37%') ALL
+
+	//Ativa a div que da opção de informar por usuario
+	//função que somente remove a linha que não tem usuário encontrado
+	a(class="ReportOption" onclick='activeDiv("customizePlayer","playerName"),desactiveDiv("Btn")') by PLAYER
+
+	//Função que faz download do arquivo .Json
+	a(class="ReportOption" href='/games.json' download) DOWNLOAD .JSON
+	br
+	br
+	br
+	//botão print que é ativo quando ativa a divAll
+	a(class="ReportOption" style='margin-left:37%;display:none;width:320px' onclick='printTable()' id='print') PRINT
