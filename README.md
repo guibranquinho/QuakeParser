@@ -35,7 +35,7 @@
   
   * Caso o jogador se mata, não é alterado a pontuação;
   
-  * <world> não é um jogador, portanto não é apresentado nos relatorios nem no arquivo json;
+  * "<world>" não é um jogador, portanto não é apresentado nos relatorios nem no arquivo json;
   
   
   
